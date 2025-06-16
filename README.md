@@ -127,6 +127,7 @@ Reflection:
 - Ja (subtract 100): dann result -= 100.
 - i erhöhen: das macht die schleife automatisch.
 - Nein (return result): am ende return result und vorher printf.
+```
 ---
 
 ### Task 3: Code-to-Flowchart
