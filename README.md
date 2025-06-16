@@ -116,7 +116,18 @@ gcc -c solutions/flowchart_impl solutions/flowchart_impl.c
 Reflection:
 
 * **Explain how each flowchart node maps to your C code.**
-
+```
+- Start mit x: das ist einfach der int x als eingabe.
+- result = 1 setzen: hab ich mit int result = 1 gemacht.
+- i von 1 bis x: da hab ich die for schleife gemacht, for (int i = 1; i <= x; i++).
+- i % 2 == 0 prüfen: if (i % 2 == 0) dafür.
+- Ja (add i): dann result += i.
+- Nein (multiply i): sonst result *= i.
+- result > 1000 checken: if (result > 1000) dafür.
+- Ja (subtract 100): dann result -= 100.
+- i erhöhen: das macht die schleife automatisch.
+- Nein (return result): am ende return result und vorher printf.
+```
 ---
 
 ### Task 3: Code-to-Flowchart
